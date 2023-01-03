@@ -27,7 +27,7 @@ function AobComparer() {
     return (
         <div className="AobComparer">
             <header className="App-header">
-                This app will help you find a good string to use for an AOB scan
+                Suggested AOB Strings:
                 <div>{textInput}</div>
                 <textarea className="Aob-Inputs" rows="100" onChange={handleChange}></textarea>
             </header>
